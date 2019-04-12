@@ -2,7 +2,7 @@
   "name": "vue-template",
   "version": "1.0.0",
   "description": "Vue-template, mock, Version-control, Mobile",
-  "author": "kntt <kntt@gmail.com>",
+  "author": "zhengshaonong",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
