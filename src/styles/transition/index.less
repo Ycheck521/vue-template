@@ -1,0 +1,40 @@
+// Page slide-in Transian Effect
+.slide-in {
+  &-enter {
+    transform: translate3d(100%, 0, 0);
+  }
+  &-leave-to {
+    transform: translate3d(0%, 0, 0);
+    opacity: 0
+  }
+  &-enter-active, &-leave-active {
+    transition: transform .3s ease, opacity .3s ease;
+  }
+}
+
+// Page slide-out Transian Effect
+.slide-out {
+  &-enter {
+    transform: translate3d(0%, 0, 0);
+  }
+  &-leave-to {
+    transform: translate3d(100%, 0, 0);
+    // opacity: .4;
+  }
+  &-leave-active {
+    z-index: 2;
+  }
+  &-enter-active, &-leave-active {
+    transition: transform .3s ease, opacity .3s ease;
+  }
+}
+
+// Fade Transian Effect
+.fade {
+  &-enter, &-leave-to {
+    opacity: 0
+  }
+  &-enter-active, &-leave-active {
+    transition: opacity .5s
+  }
+}
