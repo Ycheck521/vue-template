@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "alloyfinger": "^0.1.13",
-    "axios": "^0.17.0",
+    "axios": "^0.21.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "better-scroll": "^1.4.1",
     "css3transform": "^1.1.8",
